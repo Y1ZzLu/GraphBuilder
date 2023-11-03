@@ -14,7 +14,6 @@ void viewLog::resizeEvent(QResizeEvent *event){
     this->setText(elideText);
     this->show();
 }
-
 //MyGraphicsView
 MyGraphicsView::MyGraphicsView(int _type, QWidget *parent) :
     QGraphicsView(parent),
